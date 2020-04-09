@@ -4,12 +4,5 @@
     "packages/*"
   ],
   "version": "1.1.1",
-  "useWorkspaces": true,
-  "publish": {
-    "npmClient": "npm",
-    "allowBranch": [
-      "master"
-    ],
-    "registry": "https://registry.npmjs.org/"
-  }
+  "useWorkspaces": true
 }
