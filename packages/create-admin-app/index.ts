@@ -11,8 +11,6 @@ import packageJson from './package.json'
 
 let projectPath: string = ''
 
-clear();
-
 new Commander.Command(packageJson.name)
   .version(packageJson.version)
   .arguments('<project-directory>')
