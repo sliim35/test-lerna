@@ -1,17 +1,11 @@
 {
+  "packages": ["packages/*"],
   "npmClient": "yarn",
-  "packages": [
-    "packages/*"
-  ],
-  "version": "1.1.11",
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "npmClient": "npm",
-      "allowBranch": [
-        "master"
-      ],
-      "registry": "https://registry.npmjs.org/"
+       "conventionalCommits": true,
+       "yes": true
     }
-  }
+}
 }
