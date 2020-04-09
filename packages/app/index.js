@@ -1,6 +1,6 @@
 const first = require('@monorepo/first');
 
-const app = () => 'Hi from the app';
+const app = () => 'Hi from the app!';
 
 const main = () => {
   console.log(app());
