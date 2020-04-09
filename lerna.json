@@ -10,9 +10,12 @@
     },
     "publish": {
       "npmClient": "npm",
-      "allowBranch": ["master", "canary"],
+      "allowBranch": [
+        "master",
+        "canary"
+      ],
       "registry": "https://registry.npmjs.org/"
     }
   },
-  "version": "1.1.15"
+  "version": "1.1.16"
 }
