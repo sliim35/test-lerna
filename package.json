@@ -15,6 +15,6 @@
     "update:version": "npx lerna version --no-push"
   },
   "devDependencies": {
-    "lerna": "3.14.1"
+    "lerna": "^3.14.1"
   }
 }
