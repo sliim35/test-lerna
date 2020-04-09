@@ -1,6 +1,6 @@
 {
   "name": "@my-super-first-monorepo/create-admin-app",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "keywords": [
     "react",
     "admin"
