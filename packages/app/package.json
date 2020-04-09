@@ -1,6 +1,6 @@
 {
   "name": "@my-super-first-monorepo/app",
-  "version": "1.1.19",
+  "version": "1.1.20",
   "main": "index.js",
   "license": "MIT",
   "gitHead": "2e8f9a22792ed85e6d0fd8badc8e0916297f69b4"
