@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/first",
+  "name": "@my-super-first-monorepo/first",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT"
