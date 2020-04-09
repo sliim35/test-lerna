@@ -1,4 +1,4 @@
-const first = require('@monorepo/first');
+const first = require('@my-super-first-monorepo/first');
 
 const app = () => 'Hi from the app!';
 
