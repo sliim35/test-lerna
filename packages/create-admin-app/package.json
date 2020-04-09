@@ -9,11 +9,6 @@
     "access": "public"
   },
   "description": "Create Admins",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sliim35/test-lerna",
-    "directory": "packages/create-admin-app"
-  },
   "author": "mdvoy",
   "license": "MIT",
   "bin": {
@@ -48,5 +43,5 @@
     "cpy": "^8.1.0",
     "make-dir": "^3.0.2"
   },
-  "gitHead": "5cb0df541b37ec082a4e0c70d8807f41647a6030"
+  "gitHead": "bf83f07e0df89fc97b88df6ab70c6f915edaf274"
 }
