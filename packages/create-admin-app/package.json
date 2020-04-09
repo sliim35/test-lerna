@@ -5,9 +5,6 @@
     "react",
     "admin"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "description": "Create Admins",
   "author": "mdvoy",
   "license": "MIT",
