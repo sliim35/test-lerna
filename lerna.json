@@ -7,7 +7,9 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "verifyAccess": false
+      "npmClient": "npm",
+      "allowBranch": ["master"],
+      "registry": "https://registry.npmjs.org/"
     }
   }
 }
