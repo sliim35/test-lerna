@@ -6,8 +6,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@my-super-first-monorepo/first": "^1.1.11-alpha.0"
-  },
-  "gitHead": "22e6bf0154b8d75cf9f2e5251dfbd211c914d039"
+  "gitHead": "8099d48b74d23958859c676b503f6b8138acfb69"
 }
