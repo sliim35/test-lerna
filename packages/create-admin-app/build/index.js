@@ -41,7 +41,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var chalk_1 = __importDefault(require("chalk"));
-var clear_1 = __importDefault(require("clear"));
 var figlet_1 = __importDefault(require("figlet"));
 var prompts_1 = __importDefault(require("prompts"));
 var commander_1 = __importDefault(require("commander"));
@@ -49,7 +48,6 @@ var path_1 = __importDefault(require("path"));
 var createApp_1 = require("./createApp");
 var package_json_1 = __importDefault(require("./package.json"));
 var projectPath = '';
-clear_1.default();
 new commander_1.default.Command(package_json_1.default.name)
     .version(package_json_1.default.version)
     .arguments('<project-directory>')

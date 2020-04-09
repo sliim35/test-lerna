@@ -12,7 +12,7 @@
     "packages/*"
   ],
   "scripts": {
-    "publish": "npx lerna publish",
+    "publish:lerna": "lerna publish",
     "update:version": "npx lerna version --no-push"
   },
   "devDependencies": {
