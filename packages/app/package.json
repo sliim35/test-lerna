@@ -7,6 +7,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@monorepo/first": "^1.0.0"
-  }
+    "@my-super-first-monorepo/first": "^1.0.0"
+  },
+  "gitHead": "23c8256e7f33121a90d09c06fd0c1052415bd471"
 }
