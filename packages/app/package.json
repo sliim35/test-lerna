@@ -1,13 +1,13 @@
 {
   "name": "@my-super-first-monorepo/app",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@my-super-first-monorepo/first": "^1.0.10"
+    "@my-super-first-monorepo/first": "^1.1.0"
   },
   "gitHead": "b7eec7e0ead17c2188a3a6c2b281ec62535574b0"
 }
