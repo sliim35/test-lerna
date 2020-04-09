@@ -17,7 +17,7 @@
   "author": "mdvoy",
   "license": "MIT",
   "bin": {
-    "create-admin-app": "./dist/index.js"
+    "my-super-first-monorepo": "./build/index.js"
   },
   "files": [
     "dist"

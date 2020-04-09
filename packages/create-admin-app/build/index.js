@@ -55,6 +55,7 @@ new commander_1.default.Command(package_json_1.default.name)
     .arguments('<project-directory>')
     .usage(chalk_1.default.green('<project-directory>') + " [options]")
     .action(function (name) {
+    console.log(name);
     projectPath = name;
 })
     .parse(process.argv);
@@ -87,7 +88,7 @@ function run() {
                         message: 'Pick a template',
                         choices: [
                             { title: 'Default starter app', value: 'default' },
-                            { title: 'Example from the Next.js repo', value: 'example' },
+                            { title: 'App with super graphic template', value: 'example' },
                         ],
                     })];
                 case 3:

@@ -18,6 +18,7 @@ new Commander.Command(packageJson.name)
   .arguments('<project-directory>')
   .usage(`${chalk.green('<project-directory>')} [options]`)
   .action(name => {
+    console.log(name)
     projectPath = name
   })
   .parse(process.argv)

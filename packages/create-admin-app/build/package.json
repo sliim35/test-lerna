@@ -1,10 +1,13 @@
 {
-    "name": "create-admin-app",
-    "version": "0.0.1",
+    "name": "@my-super-first-monorepo/create-admin-app",
+    "version": "1.0.2",
     "keywords": [
         "react",
         "admin"
     ],
+    "publishConfig": {
+        "access": "public"
+    },
     "description": "Create Admins",
     "repository": {
         "type": "git",
@@ -14,7 +17,7 @@
     "author": "mdvoy",
     "license": "MIT",
     "bin": {
-        "create-admin-app": "./dist/index.js"
+        "my-super-first-monorepo": "./dist/index.js"
     },
     "files": [
         "dist"
