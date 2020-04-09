@@ -11,7 +11,7 @@
     "packages/*"
   ],
   "scripts": {
-    "publish:lerna": "lerna version --force-publish",
+    "publish:lerna": "lerna publish",
     "update:version": "npx lerna version --no-push"
   },
   "devDependencies": {
