@@ -1,6 +1,6 @@
 {
-    "name": "@my-super-first-monorepo/create-admin-app",
-    "version": "1.1.2",
+    "name": "@sliim35/create-admin-app",
+    "version": "1.1.27",
     "keywords": [
         "react",
         "admin"
@@ -9,18 +9,14 @@
         "access": "public"
     },
     "description": "Create Admins",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/sliim35/test-lerna",
-        "directory": "packages/create-admin-app"
-    },
     "author": "mdvoy",
     "license": "MIT",
+    "main": "build/index.js",
     "bin": {
-        "my-super-first-monorepo": "./build/index.js"
+        "create-admin-app": "build/index.js"
     },
     "files": [
-        "dist"
+        "build"
     ],
     "scripts": {
         "build": "tsc -p ."
@@ -48,5 +44,5 @@
         "cpy": "^8.1.0",
         "make-dir": "^3.0.2"
     },
-    "gitHead": "eb4250240eece798e8c4c5f1afd28cdcba40d535"
+    "gitHead": "d33b3d398df91dfc00700085ce5beafc8e025848"
 }
