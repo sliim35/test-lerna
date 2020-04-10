@@ -19,7 +19,8 @@
     "build"
   ],
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@types/clear": "^0.1.0",
