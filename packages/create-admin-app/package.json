@@ -11,10 +11,12 @@
   "description": "Create Admins",
   "author": "mdvoy",
   "license": "MIT",
+  "main": "./build/index.js",
   "bin": {
     "create-admin-app": "./build/index.js"
   },
   "files": [
+    "index.js",
     "build"
   ],
   "scripts": {
