@@ -12,7 +12,7 @@
   "author": "mdvoy",
   "license": "MIT",
   "bin": {
-    "my-super-first-monorepo": "./build/index.js"
+    "create-admin-app": "./build/index.js"
   },
   "files": [
     "dist"
